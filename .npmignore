@@ -1,0 +1,23 @@
+# Ficheiros de desenvolvimento
+README.md
+.git/
+.gitignore
+.npmignore
+
+# Ficheiros do sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Testes (se existirem)
+test/
+tests/
+*.test.js
+
+# Documentação extra
+docs/
+*.md
+!README.md

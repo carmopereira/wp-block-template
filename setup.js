@@ -116,7 +116,7 @@ async function main() {
 	}
 
 	// 2. Copiar scripts
-	const setupScriptsDir = path.join(setupDir, 'scripts');
+	const setupScriptsDir = path.join(setupDir, 'setup');
 	const projectScriptsDir = path.join(projectDir, 'scripts');
 
 	if (fs.existsSync(setupScriptsDir)) {

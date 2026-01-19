@@ -76,7 +76,7 @@ npm run build
 carmo-wp-block-template/
 ├── setups/
 │   └── create-block-carmo-addon/
-│       ├── scripts/
+│       ├── setup/
 │       │   ├── create-symlink.js
 │       │   ├── sync-version.js
 │       │   └── update-git.js
@@ -84,6 +84,7 @@ carmo-wp-block-template/
 │       └── package-scripts.json
 ├── setup.js
 ├── package.json
+├── .npmignore
 └── README.md
 ```
 

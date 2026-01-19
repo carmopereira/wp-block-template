@@ -1,7 +1,9 @@
 const fs = require('fs');
 const path = require('path');
 
-const root = path.resolve(__dirname, '..', '..');
+// Usar process.cwd() para obter o diretório raiz do projeto (onde está o package.json)
+// Quando executado via npm script, process.cwd() aponta para a raiz do projeto
+const root = process.cwd();
 const pkgPath = path.join(root, 'package.json');
 
 if (!fs.existsSync(pkgPath)) {
