@@ -1,6 +1,6 @@
 {
 	"name": "@carmopereira/wp-block-setup",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Setup tool para adicionar scripts custom e configurações aos projetos WordPress create-block",
 	"author": "carmopereira",
 	"license": "GPL-2.0-or-later",
